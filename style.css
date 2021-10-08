@@ -1,7 +1,11 @@
+
+
+
 body
 {
 	font-family: 'Tomorrow', Arial, Arial black, Impact, Verdana, sans-serif;
   overflow-x: hidden;
+
 }
 
 a:hover, a:focus, a:active
@@ -15,6 +19,7 @@ a, a:visited
 }
 
 section
+
 {
 	display: flex;
 }
@@ -154,7 +159,7 @@ aside p
 
 aside h2 
 {
-	text-align: center;
+	text-align: left;
 }
 
 
@@ -382,3 +387,13 @@ progress
   filter: grayscale(20%);
   }
 }
+
+
+@media screen and  (min-width:980px)
+ {
+  section {
+    flex-direction: column;
+  } 
+  aside {
+
+  }
