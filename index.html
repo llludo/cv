@@ -1,151 +1,203 @@
- <!DOCTYPE html>
- <html lang="fr">
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="js/monscript.js"></script>
+		<title>CV truffier ludovic</title>
+	</head>
 
- <head>
- 	<meta charset="utf-8" />
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 	<link rel="stylesheet" href="style.css" />
- 	<link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
- 	<script src="js/monscript.js"></script>
- 	<title>CV truffier ludovic</title>
- </head>
+	<body>
+		<main>
+			<section>
+				<!-----Partie gauche du CV qui contient les données perso----->
+				<aside>
+					<div id="banniere">
+						<h1 class="nom">Ludovic TRUFFIER</h1>
+					</div>
+					<div class="bare"></div>
+					<div id="image_ronde">
+						<img src="Sans titre(1).png" alt="Photo de profil" />
+					</div>
 
- <body>
- 	<main>
+					<h2>Données personnelles</h2>
+					<div class="zoom">
+						<img
+							src="https://i.postimg.cc/phwfHb45/phone.png"
+							alt="logo téléphone"
+							class="phone"
+						/>
+						<h3>Numéro de téléphone</h3>
+						<p>06.50.82.68.84</p>
+					</div>
 
-		 
- 		<section>
- 			<!-----Partie gauche du CV qui contient les données perso----->
- 			<aside>
- 				<div id="banniere">
- 					<h1 class="nom">Ludovic TRUFFIER</h1>
- 				</div>
- 				<div class="bare"></div>
- 				<div id="image_ronde">
- 					<img src="Sans titre(1).png" alt="Photo de profil" />
- 				</div>
+					<div class="zoom">
+						<img
+							src="https://i.postimg.cc/kDRshwzt/calendar.png"
+							alt="logo calendrier"
+							class="calendar"
+						/>
+						<h3>Date de naissance</h3>
+						<p>25/06/1986</p>
+					</div>
 
- 				<h2>Données personnelles</h2>
- 				<div class="zoom"><img src="https://i.postimg.cc/phwfHb45/phone.png" alt="logo téléphone"
- 						class="phone" />
- 					<h3>Numéro de téléphone</h3>
- 					<p>06.50.82.68.84</p>
- 				</div>
+					<div class="zoom">
+						<img
+							src="https://i.postimg.cc/nC828BfS/car.png"
+							alt="logo voiture"
+							class="car"
+						/>
+						<h3>Permis de conduire</h3>
+						<p>
+							B, véhicule perso, C, <br /><strong>Mobilité</strong>: Région Haut de
+							France
+						</p>
+					</div>
 
+					<div class="zoom">
+						<img
+							src="https://i.postimg.cc/jWk6MJhX/mail.png"
+							alt="logo mail"
+							class="mail"
+						/>
+						<h3>Mail et Réseau social</h3>
+						<p>
+							<a
+								href="mailto:truffierllludo@gmail.com"
+								title="Laissez moi un message !"
+								class="bouton"
+							>
+								Me contacter !</a
+							>
+							<a href="https://www.linkedin.com/in/ludovic-truffier-1a9b04221/"
+								><img
+									src="https://i.postimg.cc/5Htq5m8y/linkedin.png"
+									alt="logo linkedin"
+									class="linke"
+							/></a>
+						</p>
+					</div>
 
- 				<div class="zoom"><img src="https://i.postimg.cc/kDRshwzt/calendar.png" alt="logo calendrier"
- 						class="calendar" />
- 					<h3>Date de naissance</h3>
- 					<p>25/06/1986</p>
- 				</div>
+					<!----Partie compétence avec des bars de progressions----->
+					<h2>Compétences</h2>
+					<div id="progress">
+						<div id="liste_puce">
+							<ul>
+								<li>HTML / CSS</li>
+								<progress class="color" value="8" min="0" max="100">90%</progress>
 
- 				<div class="zoom"><img src="https://i.postimg.cc/nC828BfS/car.png" alt="logo voiture" class="car" />
- 					<h3>Permis de conduire</h3>
- 					<p>B, véhicule perso, C, <br /><strong>Mobilité</strong>: Région Haut de France</p>
- 				</div>
+								<li>Travail d'équipe</li>
+								<progress class="color" value="100" min="0" max="100">
+									100%
+								</progress>
 
- 				<div class="zoom"><img src="https://i.postimg.cc/jWk6MJhX/mail.png" alt="logo mail" class="mail" />
- 					<h3>Mail et Réseau social</h3>
- 					<p><a href="mailto:truffierllludo@gmail.com" title="Laissez moi un message !" class="bouton"> Me
- 							contacter !</a>
- 						<a href="https://www.linkedin.com/in/ludovic-truffier-1a9b04221/"><img
- 								src="https://i.postimg.cc/5Htq5m8y/linkedin.png" alt="logo linkedin"
- 								class="linke" /></a>
- 					</p>
- 				</div>
+								<li>Organisation</li>
+								<progress class="color" value="75" min="0" max="100">80%</progress>
 
+								<li>Autonome</li>
+								<progress class="color" value="80" min="0" max="100">85%</progress>
+							</ul>
+						</div>
+					</div>
 
- 				<!----Partie compétence avec des bars de progressions----->
- 				<h2>Compétences</h2>
- 				<div id="progress">
- 					<div id="liste_puce">
- 						<ul>
- 							<li>HTML / CSS</li>
- 							<progress class="color" value="8" min="0" max="100">90%</progress>
+					<h2>Centres d'intéret</h2>
+					<div id="liste_puce2">
+						<ul>
+							<li>Sports (SUP surf, snow board,VTT,skateboard)</li>
+						</ul>
+					</div>
+				</aside>
 
+				<!---Partie droite du Cv avec descriptif de mon parcours professionnel et formation et div animation--->
 
+				<article>
+					<div class="flip-box">
+						<div class="flip-box-interne">
+							<div class="flip-box-devant">
+								<h3>Mon Projet ?</h3>
+							</div>
+							<div class="flip-box-derriere">
+								<h3>concepter mon application artitisque</h3>
+							</div>
+						</div>
+					</div>
+					<div id="bloc">
+						<div id="fleche">
+							<img
+								src="https://i.postimg.cc/56w3fyx4/fleche.png"
+								alt="indique l'amimation flip"
+							/>
+						</div>
+						<h2>Expériences professionnelles</h2>
 
+						<h3>
+							.Auto-Entrepreneur Livinglook Artiste peintre, Artiste ferrronier 2020
+						</h3>
 
- 							<li>Travail d'équipe</li>
- 							<progress class="color" value="100" min="0" max="100">100%</progress>
+						<h3>
+							.Chef de rang LA VILLA 16 place de la concorde 62152 Neufchatel-Hardelot
+							-2019
+						</h3>
 
- 							<li>Organisation</li>
- 							<progress class="color" value="75" min="0" max="100">80%</progress>
+						<h3>
+							.Responsable de salle "O'delice"3 Avenue de le concorde 62152
+							Neufchatel-Hardelot -2017
+						</h3>
 
- 							<li>Autonome</li>
- 							<progress class="color" value="80" min="0" max="100">85%</progress>
- 						</ul>
- 					</div>
- 				</div>
+						<h3>.Employé polyvalent Hotel D'oZ en oisans 38114 2016</h3>
 
- 				<h2>Centres d'intéret</h2>
- 				<div id="liste_puce2">
- 					<ul>
- 						<li>Sports (SUP surf, snow board,VTT,skateboard)</li>
+						<h3>
+							.Serveur La Villa restaurant/bar 16 place de la concorde 62152
+							Neufchatel-Hardelot 2015
+						</h3>
+						<h3>.Serveur Altitude Les Airelles Vaujany 38114 2014</h3>
+						<h3>
+							.Serveur Regina Hotel 185 Avenue François 1er 62152 Neufchatel-Hardelot
+							2013
+						</h3>
+						<h3>
+							.Employé polyvalent restauration Chez Mehmet 16 rue Du Dyen 62200
+							Bulogne sur Mer 2012
+						</h3>
+						<h3>
+							.Métallier serrurier Roger Delattre ACIER Chemin du mont duez 62126
+							Wimille 2008/2011
+						</h3>
+						<h3>
+							.Chauffeur manutentionnaire Opale Valo Emballage 17 terrasse Huret
+							Lagache 62200 Boulogne sur Mer
+						</h3>
+						<h3>.Apprenti serrurier métallier Van Duyse Philippe Artisan Ferronnier</h3>
 
- 					</ul>
- 				</div>
- 			</aside>
+						<hr />
+						<h2>Formations</h2>
+						<h3>
+							.Formation developpeur concepteur d'application Simplon 2021 - à
+							aujourd'hui
+						</h3>
+						<h3>.BAC Littéraire 2013-2014</h3>
+						<h3>Formation brevet de premier Secour 2010</h3>
+						<h3>
+							.Formation permis C institut de formation professionnelle C.F.T/E.C.F
+							2005-2006
+						</h3>
+						<h3>
+							.Formation apprentis serrurier métallier CFA d'Hesdigneul les boulogne
+							CAP/BEP 2002-2004
+						</h3>
+						<h3>.Formation préprofessionnelle Jules-Verne Etaples BEPC 201-2002</h3>
+					</div>
+				</article>
+			</section>
+		</main>
 
- 			<!---Partie droite du Cv avec descriptif de mon parcours professionnel et formation et div animation--->
+		<script src="code.js"></script>
 
- 			<article>
- 				<div class="flip-box">
- 					<div class="flip-box-interne">
- 						<div class="flip-box-devant">
- 							<h3>Mon Projet ?</h3>
- 						</div>
- 						<div class="flip-box-derriere">
- 							<h3>concepter mon application artitisque </h3>
- 						</div>
- 					</div>
- 				</div>
- 				<div id="bloc">
- 					<div id="fleche"><img src="https://i.postimg.cc/56w3fyx4/fleche.png"
- 							alt="indique l'amimation flip"></div>
- 					<h2>
- 						</p>Expériences professionnelles</h2>
-
-
- 					<h3>.Auto-Entrepreneur Livinglook Artiste peintre, Artiste ferrronier 2020</h3>
-
- 					<h3>.Chef de rang LA VILLA 16 place de la concorde 62152 <Neufchatel-Hardelot>
- 						</Neufchatel-Hardelot>
- 						</la> -2019</h3>
-
-
- 					<h3>.Responsable de salle "O'delice"3 Avenue de le concorde 62152 Neufchatel-Hardelot -2017</h3>
-
-
- 					<h3>.Employé polyvalent Hotel D'oZ en oisans 38114 2016</h3>
-
- 					<h3>.Serveur La Villa restaurant/bar 16 place de la concorde 62152 Neufchatel-Hardelot 2015 </h3>
- 					<h3>.Serveur Altitude Les Airelles Vaujany 38114 2014</h3>
- 					<h3>.Serveur Regina Hotel 185 Avenue François 1er 62152 Neufchatel-Hardelot 2013</h3>
- 					<h3>.Employé polyvalent restauration Chez Mehmet 16 rue Du Dyen 62200 Bulogne sur Mer 2012</h3>
- 					<h3>.Métallier serrurier Roger Delattre ACIER Chemin du mont duez 62126 Wimille 2008/2011</h3>
- 					<h3>.Chauffeur manutentionnaire Opale Valo Emballage 17 terrasse Huret Lagache 62200 Boulogne sur
- 						Mer </h3>
- 					<h3>.Apprenti serrurier métallier Van Duyse Philippe Artisan Ferronnier</h3>
-
-
- 					<hr>
- 					<h2>Formations</h2>
- 					<h3>.Formation developpeur concepteur d'application Simplon 2021 - à aujourd'hui</h3>
- 					<h3>.BAC Littéraire 2013-2014</h3>
- 					<h3>Formation brevet de premier Secour 2010</h3>
- 					<h3>.Formation permis C institut de formation professionnelle C.F.T/E.C.F 2005-2006</h3>
- 					<h3>.Formation apprentis serrurier métallier CFA d'Hesdigneul les boulogne CAP/BEP 2002-2004</h3>
- 					<h3>.Formation préprofessionnelle Jules-Verne Etaples BEPC 201-2002</h3>
-
- 				</div>
-
- 			</article>
- 		</section>
- 	</main>
-
- 	<script src="code.js"></script>
-
- 	<button onclick="myFunction()">dark mode </style></button>
- </body>
- </html>
+		<button onclick="myFunction()">dark mode</button>
+	</body>
+</html>
